@@ -273,7 +273,7 @@ There are tools to work around that, e.g. Notedown and Jupytext.
 
 ----
 
-# (4) Colaboration
+# (4) Collaboration
 
 * Run a server and use token to share a workspace (e.g. in a container)
 * Run [JupyterHub](https://jupyter.org/hub) -- TLJH (1-100 users, support for [ARM](https://github.com/jupyterhub/the-littlest-jupyterhub/issues/62), WIP)
