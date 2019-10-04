@@ -232,14 +232,14 @@ $ jupyter kernelspec uninstall myenv
 
 # (3) Experiments
 
-Although notebooks are in a textual format (JSON), they are hard to version
-control, since there is some state associated with the execution.
+Although notebooks are in a textual format (JSON), they are **harder to version
+control**, since there is some state associated with the execution.
 
 ----
 
 # (3) Experiments
 
-There are tools to work around that, e.g. Notedown and Jupytext.
+There are tools to work around that, e.g. Notedown, Jupytext or nbstripout.
 
 * [Notedown](https://github.com/aaren/notedown), write markdown and convert to a notebook
 * [Jupytext](https://github.com/mwouts/jupytext), associate Markdown file with Notebook and sync them
