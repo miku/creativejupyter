@@ -50,6 +50,8 @@ Translated to programming and data context:
 
 # Literate programming
 
+![](static/cover.jpg)
+
 * original paper from Knuth (1984)
 * similar but different idea: write one document, generate executable and
   documentation from the same source 
