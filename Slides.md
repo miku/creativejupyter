@@ -241,9 +241,9 @@ control, since there is some state associated with the execution.
 
 There are tools to work around that, e.g. Notedown and Jupytext.
 
-* Notedown, write markdown and convert to a notebook
-* Jupytext, associate Markdown file with Notebook and sync them
-* nbstripout, clean output cells
+* [Notedown](https://github.com/aaren/notedown), write markdown and convert to a notebook
+* [Jupytext](https://github.com/mwouts/jupytext), associate Markdown file with Notebook and sync them
+* [nbstripout](https://github.com/kynan/nbstripout), clean output cells
 
 ----
 
