@@ -1,0 +1,3860 @@
+{
+"structure" :{
+"header" :{
+"id" :"none",
+"prepared" :"2019-10-03T10:11:03Z",
+"sender" :{
+"contact" :{
+"email" :"support@nomisweb.co.uk",
+"name" :"Nomis",
+"telephone" :"+441913342680",
+"uri" :"http:\/\/www.nomisweb.co.uk"},
+"id" :"NOMIS"},
+"test" :"false"},
+"keyfamilies" :{
+"keyfamily" :[
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Rates",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :1,
+"annotationtitle" :"contenttype\/sorting"},
+{
+"annotationtext" :"usw91 usp usu",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"us",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-06-16 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_1_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_1_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_1_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_1_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_1_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_1_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_1_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"Records the number of people claiming Jobseeker\u0027s Allowance (JSA) and National Insurance credits at Jobcentre Plus local offices. This is not an official measure of unemployment, but is the only indicative statistic available for areas smaller than Local Authorities.",
+"lang" :"en"},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance with rates and proportions",
+"lang" :"en"},
+"uri" :"Nm-1d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Historical (not actively being updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Age,Duration",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"usadw91 usadp usadu",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"usad",
+"annotationtitle" :"Mnemonic"}]},
+"id" :"NM_2_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_2_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_2_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_2_1_AGE_DUR",
+"conceptref" :"AGE_DUR"},
+{
+"codelist" :"CL_2_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_2_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_2_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A quartery count of claimants who were claiming Jobseeker\u0027s Allowance on the count date analysed by their age and the duration.",
+"lang" :"en"},
+"name" :{
+"value" :"claimant count - age and duration",
+"lang" :"en"},
+"uri" :"Nm-2d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"ucadw91",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"ucad",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-06-16 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_4_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_4_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_4_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_4_1_AGE_DUR",
+"conceptref" :"AGE_DUR"},
+{
+"codelist" :"CL_4_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_4_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_4_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A monthly count of Jobseeker\u0027s Allowance (JSA) claimants broken down by age and the duration of claim. Totals exclude non-computerised clerical claims (approx. 1%). Available for areas smaller than Local Authorities.",
+"lang" :"en"},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance by age and duration",
+"lang" :"en"},
+"uri" :"Nm-4d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Historical (not actively being updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"ubrd",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"ubrd",
+"annotationtitle" :"Mnemonic"}]},
+"id" :"NM_5_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_5_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_5_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_5_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_5_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_5_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_5_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A midyear estimate of the workforce (the denominator) which was used for calculating claimant count rates prior to January 2003. The estimates are broken down by sex but not age.",
+"lang" :"en"},
+"name" :{
+"value" :"claimant count denominators - historical workforce series",
+"lang" :"en"},
+"uri" :"Nm-5d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Historical (not actively being updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Occupation",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"usocw91",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"usoc",
+"annotationtitle" :"Mnemonic"}]},
+"id" :"NM_6_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_6_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_6_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_6_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_6_1_OCCUPATION",
+"conceptref" :"OCCUPATION"},
+{
+"codelist" :"CL_6_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_6_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_6_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A quarterly count of  Jobseeker\u0027s Allowance claimants analysed by their sought and usual occupation.",
+"lang" :"en"},
+"name" :{
+"value" :"claimant count - occupation",
+"lang" :"en"},
+"uri" :"Nm-6d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Historical (not actively being updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Occupation,Age,Duration",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"usocad",
+"annotationtitle" :"Mnemonic"}]},
+"id" :"NM_7_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_7_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_7_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_7_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_7_1_OCCUPATION",
+"conceptref" :"OCCUPATION"},
+{
+"codelist" :"CL_7_1_AGE_DUR",
+"conceptref" :"AGE_DUR"},
+{
+"codelist" :"CL_7_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_7_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_7_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A quarterly count of  Jobseeker\u0027s Allowance claimants analysed by their sought and usual occupation, their age and the duration of their claim.",
+"lang" :"en"},
+"name" :{
+"value" :"claimant count - occupation, age and duration",
+"lang" :"en"},
+"uri" :"Nm-7d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Age,Duration",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"udad",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-03-17 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_8_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_8_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_8_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_8_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_8_1_AGE_DUR",
+"conceptref" :"AGE_DUR"},
+{
+"codelist" :"CL_8_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_8_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_8_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance off-flows by reason, age and duration",
+"lang" :"en"},
+"uri" :"Nm-8d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Age,Duration",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"ufadw91 ufadp ufadu",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"ufad",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-03-17 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_9_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_9_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_9_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_9_1_AGE_DUR",
+"conceptref" :"AGE_DUR"},
+{
+"codelist" :"CL_9_1_FLOW",
+"conceptref" :"FLOW"},
+{
+"codelist" :"CL_9_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_9_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_9_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A monthly count of JSA claimants who either a) ended a claim (off-flows) during the previous accounting month analysed by age and duration of their completed claims or b) started a new claim (on-flows) during the previous accounting month analysed by their age; by definition durations are not applicable to on-flows.",
+"lang" :"en"},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance flows by age and duration",
+"lang" :"en"},
+"uri" :"Nm-9d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"ufw91 ufp ufu",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"uf",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-03-17 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_10_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_10_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_10_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_10_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_10_1_FLOW",
+"conceptref" :"FLOW"},
+{
+"codelist" :"CL_10_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_10_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_10_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A monthly count of claimants who either a) were claiming Jobseeker\u0027s Allowance (stocks) on the count date, b) ended a claim (off-flows) during the previous accounting month or c) started a new claim (on-flows) during the previous accounting month.",
+"lang" :"en"},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance flows",
+"lang" :"en"},
+"uri" :"Nm-10d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Seasonally adjusted",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"cc",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"usac",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"usac",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-06-16 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_11_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_11_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_11_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_11_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_11_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_11_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"The seasonally adjusted series takes into account seasonal patterns of claims and previous changes to the way in which claimants are counted so that the whole series from 1971 is consistent with the current data. This allow comparisons over time to be made which are not affected by the discontinuities found in the unadjusted series. The current seasonally adjusted series relates only to claimants aged 18 or over.",
+"lang" :"en"},
+"name" :{
+"value" :"Claimant Count - seasonally adjusted",
+"lang" :"en"},
+"uri" :"Nm-11d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,ESA",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"besasa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_12_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_12_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_12_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_12_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_12_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_12_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"benefit claimants - employment and support allowance for small areas",
+"lang" :"en"},
+"uri" :"Nm-12d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Age,Duration,Rates",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"na",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"ccadr",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2016-01-20 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_18_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_18_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_18_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_18_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_18_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_18_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_18_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_18_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A monthly count of Jobseeker\u0027s Allowance (JSA) claimants broken down by age and duration of claim together with age based proportions. Totals exclude non-computerised clerical claims (approx. 1%). Available for Local Authorities.",
+"lang" :"en"},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance by age and duration with proportions",
+"lang" :"en"},
+"uri" :"Nm-18d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Seasonally adjusted",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"usaf",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-04-16 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_39_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_39_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_39_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_39_1_FLOW",
+"conceptref" :"FLOW"},
+{
+"codelist" :"CL_39_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_39_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_39_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance flows - seasonally adjusted",
+"lang" :"en"},
+"uri" :"Nm-39d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"JCP Vacancies",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"ujsasa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2016-01-20 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_45_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_45_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_45_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_45_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_45_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_45_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"The seasonally adjusted series takes into account seasonal patterns of claims and previous changes to the way in which claimants are counted so that the whole series from 1971 is consistent with the current data. This allow comparisons over time to be made which are not affected by the discontinuities found in the unadjusted series. The current seasonally adjusted series relates only to claimants aged 18 or over.",
+"lang" :"en"},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance - seasonally adjusted",
+"lang" :"en"},
+"uri" :"Nm-45d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Denominators,Population",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"urbd",
+"annotationtitle" :"Mnemonic"}]},
+"id" :"NM_52_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_52_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_52_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_52_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_52_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_52_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_52_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"An estimate of the residents \/ workforce used for calculating claimant count rates.",
+"lang" :"en"},
+"name" :{
+"value" :"claimant count denominators - current residents \/ workforce series",
+"lang" :"en"},
+"uri" :"Nm-52d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Clients,Working age",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_5pc",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bcgwa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2016-11-16 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_68_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_68_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_68_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_68_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_68_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_68_1_FAMILY_TYPE",
+"conceptref" :"FAMILY_TYPE"},
+{
+"codelist" :"CL_68_1_STAT_GROUP",
+"conceptref" :"STAT_GROUP"},
+{
+"codelist" :"CL_68_1_BENEFIT",
+"conceptref" :"BENEFIT"},
+{
+"codelist" :"CL_68_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_68_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_68_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"DWP have developed the working-age client group analysis from its existing 5% samples of administrative data on the population of working age who were claiming at least one of the key benefits (Jobseeker\u0027s Allowance, Incapacity Benefit, Severe Disablement Allowance, Disability Living Allowance, and Income Support). If you want information about total claimants of one specific benefit, you should obtain it from the appropriate individual benefit dataset and not from this client group dataset.",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants 5% data - working age client group",
+"lang" :"en"},
+"uri" :"Nm-68d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Families,Working age",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_5pc",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bcgwaf",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2016-11-16 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_69_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_69_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_69_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_69_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_69_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_69_1_FAMILY_TYPE",
+"conceptref" :"FAMILY_TYPE"},
+{
+"codelist" :"CL_69_1_STAT_GROUP",
+"conceptref" :"STAT_GROUP"},
+{
+"codelist" :"CL_69_1_BENEFIT",
+"conceptref" :"BENEFIT"},
+{
+"codelist" :"CL_69_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_69_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_69_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"The families dataset enables users to simply identify benefit units which include children. The dataset consists of adults of working age who receive additional allowances for dependent children and is a subset of claimants who appear on the working age client group dataset.",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants 5% data - working age families",
+"lang" :"en"},
+"uri" :"Nm-69d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Children,Working age",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_5pc",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bcgchild",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2016-11-16 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_70_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_70_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_70_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_70_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_70_1_FAMILY_TYPE",
+"conceptref" :"FAMILY_TYPE"},
+{
+"codelist" :"CL_70_1_STAT_GROUP",
+"conceptref" :"STAT_GROUP"},
+{
+"codelist" :"CL_70_1_BENEFIT",
+"conceptref" :"BENEFIT"},
+{
+"codelist" :"CL_70_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_70_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_70_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"The children dataset is based on children in families where an adult of working age claims a key benefit and either: receives an additional allowance of benefit for children or young adult dependants (i.e. those aged 16-18 and still in full-time education); or receives contribution-based Jobseekers Allowance (JSA) or JSA National Insurance credits only, with children or young adult dependants recorded in the assessment; or receives Child Tax Credit (CTC).",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants 5% data - children of working age clients",
+"lang" :"en"},
+"uri" :"Nm-70d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Pensionable age",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_5pc",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bcgpension",
+"annotationtitle" :"Mnemonic"}]},
+"id" :"NM_71_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_71_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_71_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_71_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_71_1_STAT_GROUP",
+"conceptref" :"STAT_GROUP"},
+{
+"codelist" :"CL_71_1_BENEFIT",
+"conceptref" :"BENEFIT"},
+{
+"codelist" :"CL_71_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_71_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_71_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"DWP have developed the pension-age client group analysis from its existing 5% samples of administrative data on the population over state pension age who were claiming at least one of the key benefits (Attendance Allowance, Disability Living Allowance, Incapacity Benefit, Pension Credit, State Pension, and Severe Disablement Allowance (SDA)",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants 5% data - pensionable age",
+"lang" :"en"},
+"uri" :"Nm-71d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Historical (not actively being updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"usj",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"usj",
+"annotationtitle" :"Mnemonic"}]},
+"id" :"NM_80_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_80_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_80_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_80_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_80_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_80_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_80_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"Claimant Count Stocks",
+"lang" :"en"},
+"name" :{
+"value" :"claimant count stocks",
+"lang" :"en"},
+"uri" :"Nm-80d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Historical (not actively being updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"ufj",
+"annotationtitle" :"Mnemonic"}]},
+"id" :"NM_85_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_85_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_85_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_85_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_85_1_FLOW",
+"conceptref" :"FLOW"},
+{
+"codelist" :"CL_85_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_85_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_85_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A monthly count of claimants who either a) were claiming benefit (stocks, flow=1) on the count date; this count is the same as that in USJ, B)  ceased to be unemployed (off-flows, flow=2) during the previous accounting month, c) became claimants (on-flows, flow=3) during the previous accounting month",
+"lang" :"en"},
+"name" :{
+"value" :"claimant flows",
+"lang" :"en"},
+"uri" :"Nm-85d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,Occupation",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"ufsoc00",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-03-17 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_96_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_96_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_96_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_96_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_96_1_OCCUPATION",
+"conceptref" :"OCCUPATION"},
+{
+"codelist" :"CL_96_1_FLOW",
+"conceptref" :"FLOW"},
+{
+"codelist" :"CL_96_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_96_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_96_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance flows by occupation",
+"lang" :"en"},
+"uri" :"Nm-96d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,Occupation,Age",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"uifasoc00",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-03-17 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_97_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_97_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_97_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_97_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_97_1_OCCUPATION",
+"conceptref" :"OCCUPATION"},
+{
+"codelist" :"CL_97_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_97_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_97_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_97_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_97_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance on-flows by occupation and age",
+"lang" :"en"},
+"uri" :"Nm-97d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,Occupation,Age,Duration",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"uofadsoc00",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-03-17 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_98_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_98_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_98_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_98_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_98_1_OCCUPATION",
+"conceptref" :"OCCUPATION"},
+{
+"codelist" :"CL_98_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_98_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_98_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_98_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_98_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance off-flows by occupation, age and duration",
+"lang" :"en"},
+"uri" :"Nm-98d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,Occupation,Reasons",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"udsoc00",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-03-17 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_101_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_101_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_101_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_101_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_101_1_OCCUPATION",
+"conceptref" :"OCCUPATION"},
+{
+"codelist" :"CL_101_1_DESTINATION",
+"conceptref" :"DESTINATION"},
+{
+"codelist" :"CL_101_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_101_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_101_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance off-flows by reason and occupation",
+"lang" :"en"},
+"uri" :"Nm-101d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,Occupation,Reasons,Age,Duration",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"udadsoc00",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-03-17 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2017-02-15 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_102_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_102_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_102_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_102_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_102_1_OCCUPATION",
+"conceptref" :"OCCUPATION"},
+{
+"codelist" :"CL_102_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_102_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_102_1_DESTINATION",
+"conceptref" :"DESTINATION"},
+{
+"codelist" :"CL_102_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_102_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_102_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance off-flows by reason, occupation, age and duration",
+"lang" :"en"},
+"uri" :"Nm-102d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Clients,Working age",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bwasa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2017-05-17 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_103_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_103_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_103_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_103_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_103_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_103_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A count of people who are claiming DWP working-age benefits. Use to analyse the combination of benefits people are claiming (for numbers claiming a particular benefit use the individual benefit dataset instead). Small areas (ward \/ SOA) only.",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants - working age clients for small areas",
+"lang" :"en"},
+"uri" :"Nm-103d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Clients,Working age",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bwa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2017-05-17 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_105_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_105_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_105_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_105_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_105_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_105_1_CHILDREN",
+"conceptref" :"CHILDREN"},
+{
+"codelist" :"CL_105_1_STAT_GROUP",
+"conceptref" :"STAT_GROUP"},
+{
+"codelist" :"CL_105_1_BENEFIT",
+"conceptref" :"BENEFIT"},
+{
+"codelist" :"CL_105_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_105_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_105_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"Use this data set to get information on the number of working-age people who are claiming one or more key DWP benefits and to learn about the combination of benefits they are claiming. If you want information about the number of people claiming a single benefit such as incapacity benefit, use the separate single benefit data set. This data set is based on all claims (i.e. 100% processing of records) so is not subject to sampling error.",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants - working age client group",
+"lang" :"en"},
+"uri" :"Nm-105d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Incapacity benefit,Severe disablement allowance",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bibsdasa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_107_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_107_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_107_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_107_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_107_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_107_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"Incapacity Benefit (IB) was introduced in April 1995 and is paid to people who are incapable of work and who meet certain contribution conditions. Severe Disablement Allowance (SDA) was paid to those unable to work for 28 weeks in a row or more because of illness or disability. Since April 2001 it has not been possible to make a new claim for Severe Disablement Allowance. Use this data set only if you require data for small areas (super output areas and wards).",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants - IB\/SDA for small areas",
+"lang" :"en"},
+"uri" :"Nm-107d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Income support",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bissa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_108_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_108_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_108_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_108_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_108_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_108_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"Income support is a non-contributory benefit paid to people who have low incomes and who are not required to be available for employment. The main types of people receiving IS are pensioners, lone parents, the long and short-term sick, people with disabilities and other special groups. Use this data set only if you require data for small areas (super output areas and wards).",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants - income support for small areas",
+"lang" :"en"},
+"uri" :"Nm-108d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Pension credit",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bpcsa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_109_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_109_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_109_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_109_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_109_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_109_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"Pension Credit is an income-related benefit which helps provide a minimum guaranteed income for those aged 60 and over living in Great Britain. Use this data set only if you require data for small areas (super output areas and wards).",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants - pension credits for small areas",
+"lang" :"en"},
+"uri" :"Nm-109d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Disability living allowance",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bdlasa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_110_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_110_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_110_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_110_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_110_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_110_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"benefit claimants - disability living allowance for small areas",
+"lang" :"en"},
+"uri" :"Nm-110d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Jobseekers allowance",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bjsasa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_111_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_111_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_111_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_111_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_111_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_111_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"Jobseeker\u0027s Allowance is a benefit payable to unemployed people. In general, to be entitled to claim a person must be available for work, be actively seeking work, and have entered into a Jobseeker\u0027s Agreement with Jobcentre Plus. Use this data set only if you require data for small areas (super output areas and wards).",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants - job seekers allowance for small areas",
+"lang" :"en"},
+"uri" :"Nm-111d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,State pension",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"bspsa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_112_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_112_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_112_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_112_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_112_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_112_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"For the majority of recipients, State Pension  is a contributory benefit which is not income-related but is taxable. A small proportion of recipients receive non-contributory state pension. Use this data set only if you require data for small areas (super output areas and wards).",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants - state pension for small areas",
+"lang" :"en"},
+"uri" :"Nm-112d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Disability living allowance",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"b100dla",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_115_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_115_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_115_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_115_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_115_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_115_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_115_1_CONDITION",
+"conceptref" :"CONDITION"},
+{
+"codelist" :"CL_115_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_115_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_115_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"Use this data set to get information on people who are claiming Disability Living Allowance (DLA). Data are available for local authority and larger areas. To get data for smaller areas (wards & super output areas) use the matching small area data set. This data set is based on all claims (i.e. 100% processing of records) so is not subject to sampling error.",
+"lang" :"en"},
+"name" :{
+"value" :"benefit claimants - disability living allowance",
+"lang" :"en"},
+"uri" :"Nm-115d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,State pension",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"b100sp",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_117_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_117_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_117_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_117_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_117_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_117_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_117_1_BENEFIT",
+"conceptref" :"BENEFIT"},
+{
+"codelist" :"CL_117_1_DEPENDANTS",
+"conceptref" :"DEPENDANTS"},
+{
+"codelist" :"CL_117_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_117_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_117_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"benefit claimants - state pension",
+"lang" :"en"},
+"uri" :"Nm-117d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Claimants,JSA,Ethnic,Age,Duration",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"jsa",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"ueth",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2004-07-14 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_118_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_118_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_118_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_118_1_ITEM",
+"conceptref" :"ITEM"},
+{
+"codelist" :"CL_118_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_118_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_118_1_ETHNICITY",
+"conceptref" :"ETHNICITY"},
+{
+"codelist" :"CL_118_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_118_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_118_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"A  monthly count of  Jobseeker\u0027s Allowance (JSA) claimants broken down by ethnic origin. The geographic coverage is Great Britain only and the smallest available areas are  local authorities and parliamentary constituencies. Counts exclude non-computerised clerical claims (approx 1%). Latest figures are one month in arrears of the  published headline claimant count figures.",
+"lang" :"en"},
+"name" :{
+"value" :"Jobseeker\u0027s Allowance stocks and flows by ethnicity, age and duration",
+"lang" :"en"},
+"uri" :"Nm-118d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Employment support allowance",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"besa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_134_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_134_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_134_1_ICDGP_CONDITION",
+"conceptref" :"ICDGP_CONDITION"},
+{
+"codelist" :"CL_134_1_SEX",
+"conceptref" :"SEX"},
+{
+"codelist" :"CL_134_1_ESA_PHASE",
+"conceptref" :"ESA_PHASE"},
+{
+"codelist" :"CL_134_1_PAYMENT_TYPE",
+"conceptref" :"PAYMENT_TYPE"},
+{
+"codelist" :"CL_134_1_ETHNIC_GROUP",
+"conceptref" :"ETHNIC_GROUP"},
+{
+"codelist" :"CL_134_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_134_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_134_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_134_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_134_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"benefit claimants - employment and support allowance",
+"lang" :"en"},
+"uri" :"Nm-134d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"DWP benefits,Claimants,Disability living allowance",
+"annotationtitle" :"Keywords"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"dwp_wpls",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"bdlac",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2005-10-30 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-05-14 09:30:00",
+"annotationtitle" :"LastUpdated"}]},
+"id" :"NM_138_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_138_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_138_1_CONDITION",
+"conceptref" :"CONDITION"},
+{
+"codelist" :"CL_138_1_CLIENT_GROUP",
+"conceptref" :"CLIENT_GROUP"},
+{
+"codelist" :"CL_138_1_GENDER",
+"conceptref" :"GENDER"},
+{
+"codelist" :"CL_138_1_MOBILITY_AWARD",
+"conceptref" :"MOBILITY_AWARD"},
+{
+"codelist" :"CL_138_1_CARE_AWARD",
+"conceptref" :"CARE_AWARD"},
+{
+"codelist" :"CL_138_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_138_1_DURATION",
+"conceptref" :"DURATION"},
+{
+"codelist" :"CL_138_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_138_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_138_1_TIME",
+"conceptref" :"TIME"}},
+"name" :{
+"value" :"benefit claimants - disability living allowance by disabling condition",
+"lang" :"en"},
+"uri" :"Nm-138d1",
+"version" :1.0},
+{
+"agencyid" :"NOMIS",
+"annotations" :{
+"annotation" :[
+{
+"annotationtext" :"Current (being actively updated)",
+"annotationtitle" :"Status"},
+{
+"annotationtext" :"Persons",
+"annotationtitle" :"Units"},
+{
+"annotationtext" :"cc",
+"annotationtitle" :"contenttype\/sources"},
+{
+"annotationtext" :"previously unavailable",
+"annotationtitle" :"SubDescription"},
+{
+"annotationtext" :"ucjsa",
+"annotationtitle" :"Mnemonic"},
+{
+"annotationtext" :"2015-06-17 09:30:00",
+"annotationtitle" :"FirstReleased"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastUpdated"},
+{
+"annotationtext" :"2019-09-10 09:30:00",
+"annotationtitle" :"LastRevised"}]},
+"id" :"NM_162_1",
+"components" :{
+"attribute" :[
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_STATUS",
+"conceptref" :"OBS_STATUS"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_CONF",
+"conceptref" :"OBS_CONF"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Observation",
+"codelist" :"CL_OBS_ROUND",
+"conceptref" :"OBS_ROUND"},
+{
+"assignmentstatus" :"Conditional",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT_MULT",
+"conceptref" :"UNIT_MULTIPLIER"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_TIME_FORMAT",
+"conceptref" :"TIME_FORMAT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"codelist" :"CL_UNIT",
+"conceptref" :"UNIT"},
+{
+"assignmentstatus" :"Mandatory",
+"attachmentlevel" :"Series",
+"conceptref" :"TITLE_COMPL"}],
+"dimension" :[
+{
+"codelist" :"CL_162_1_GEOGRAPHY",
+"conceptref" :"GEOGRAPHY"},
+{
+"codelist" :"CL_162_1_GENDER",
+"conceptref" :"GENDER"},
+{
+"codelist" :"CL_162_1_AGE",
+"conceptref" :"AGE"},
+{
+"codelist" :"CL_162_1_MEASURE",
+"conceptref" :"MEASURE"},
+{
+"codelist" :"CL_162_1_MEASURES",
+"conceptref" :"MEASURES"},
+{
+"codelist" :"CL_162_1_FREQ",
+"conceptref" :"FREQ",
+"isfrequencydimension" :"true"}],
+"primarymeasure" :{
+"conceptref" :"OBS_VALUE"},
+"timedimension" :{
+"codelist" :"CL_162_1_TIME",
+"conceptref" :"TIME"}},
+"description" :{
+"value" :"The Claimant Count - the stock of Universal Credit and Job Seekers Allowance claimants broken down by sex, age and type of benefit being claimed. Claimant count proportions are available but not when the figures are not broken down by age.",
+"lang" :"en"},
+"name" :{
+"value" :"Claimant count by sex and age",
+"lang" :"en"},
+"uri" :"Nm-162d1",
+"version" :1.0}]},
+"xmlns" :"http:\/\/www.SDMX.org\/resources\/SDMXML\/schemas\/v2_0\/message",
+"common" :"http:\/\/www.SDMX.org\/resources\/SDMXML\/schemas\/v2_0\/common",
+"structure" :"http:\/\/www.SDMX.org\/resources\/SDMXML\/schemas\/v2_0\/structure",
+"xsi" :"http:\/\/www.w3.org\/2001\/XMLSchema-instance",
+"schemalocation" :"http:\/\/sdmx.org\/docs\/2_0\/SDMXMessage.xsd"}
+}
