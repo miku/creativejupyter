@@ -13,7 +13,7 @@ Tools for literate computing, exploration, collaboration.
 
 # About Me
 
-* Software Developer, Leipzig (DE), Data Engineer, github.com/miku
+* Software Developer, Data Engineer, Leipzig University Library (DE), [gh/miku](https://github.com/miku)
 * Part-time: Author, Trainer
 
 ----
@@ -42,7 +42,7 @@ Tools for literate computing, exploration, collaboration.
 Translated to programming and data context:
 
 * (1) materials (data)
-* (2) tools, exploration (languages, libraries, extensions)
+* (2) tools for exploration (languages, libraries, extensions)
 * (3) experiments, allow for failure (version control)
 * (4) comments and sharing (packaging, sharing, reproducibility)
 
@@ -70,7 +70,7 @@ Example data access scenarios:
 
 > A company wants to run **business analysis** across data from different databases (articles, customers, ...) or other systems (search, API)
 
-> Exploratory analysis of weather data in **scientific context**.
+> Exploratory analysis in **scientific context**, e.g. weather data, ...
 
 > Data **journalism**.
 
