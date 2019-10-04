@@ -276,7 +276,11 @@ There are tools to work around that, e.g. Notedown and Jupytext.
 # (4) Colaboration
 
 * Run a server and use token to share a workspace (e.g. in a container)
-* Run JupyterHub -- TLJH (1-100 users, support for [ARM](https://github.com/jupyterhub/the-littlest-jupyterhub/issues/62), WIP)
+* Run [JupyterHub](https://jupyter.org/hub) -- TLJH (1-100 users, support for [ARM](https://github.com/jupyterhub/the-littlest-jupyterhub/issues/62), WIP)
+
+> JupyterHub brings the power of notebooks to groups of users. It gives users
+access to computational environments and resources without burdening the users
+with installation and maintenance tasks. 
 
 ----
 
