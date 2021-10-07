@@ -7,3 +7,4 @@ collaboration.
 > Martin Czygan, gh@miku <!-- martin.czygan@gmail.com -->
 
 * [Slides](Slides.md)
+* [Video](https://youtu.be/av6vtnF_318?t=10039)
