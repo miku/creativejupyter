@@ -79,7 +79,7 @@ Keras-Preprocessing==1.1.2
 kiwisolver==1.3.2
 lesscpy==0.15.0
 lolviz==1.4.4
-lxml==4.6.3
+lxml==4.6.5
 Mako==1.1.5
 Markdown==3.3.4
 markdown-it-py==1.1.0
