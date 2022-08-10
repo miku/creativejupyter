@@ -90,7 +90,7 @@ mdit-py-plugins==0.2.8
 mistune==0.8.4
 murmurhash==1.0.5
 nbclient==0.5.4
-nbconvert==5.6.1
+nbconvert==6.3.0
 nbformat==4.4.0
 nbinteract==0.2.6
 nest-asyncio==1.5.1
