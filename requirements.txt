@@ -80,7 +80,7 @@ kiwisolver==1.3.2
 lesscpy==0.15.0
 lolviz==1.4.4
 lxml==4.6.5
-Mako==1.1.5
+Mako==1.2.2
 Markdown==3.3.4
 markdown-it-py==1.1.0
 MarkupSafe==2.0.1
